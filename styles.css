@@ -1,0 +1,252 @@
+/* =======================================================================RESET======================================================================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  a {
+    text-decoration: none;
+  }
+  
+  img {
+    width: 50%;
+    height: 50%;
+  }
+  
+  /* =======================================================================VARIABLES======================================================================= */
+  :root {
+    font-size: 150%;
+    --color: rgb(255, 255, 255);
+  }
+  
+  /* =======================================================================BASE======================================================================= */
+  body {
+    background: rgb(0,0,0);
+background: linear-gradient(146deg, rgba(0,0,0,1) 0%, rgba(88,0,143,1) 37%, rgba(118,0,192,1) 63%, rgba(255,224,133,1) 100%);
+    font: 400 1rem 'Nunito';
+    color: whitesmoke;
+  }
+  
+  
+  /* =======================================================================Scrollbar======================================================================= */
+  
+  ::-webkit-scrollbar{
+    width: 20px;
+    background: rgb(118,0,192);
+  }
+  
+  ::-webkit-scrollbar-thumb{
+    background-image: url(https://gifman.net/wp-content/uploads/2019/06/coracao-batendo-07.gif);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
+  
+  /* =======================================================================LAYOUT======================================================================= */
+  #header {
+    height: 4rem;
+    
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    color: var(--color);
+  }
+  
+  
+  a {
+    color: whitesmoke;
+  }
+  
+  a:hover {
+    opacity: 0.7;
+  }
+  
+  .button {
+    width: 15%;
+  }
+  
+  .button img{
+    width: 100%;
+    height: 100%;
+  }
+
+  .button:hover {
+    opacity: 0.5;
+  }
+  
+  .logo {
+    text-transform: uppercase;
+    font: 500 2.5rem 'Nunito';
+    color: var(--color);
+  }
+  
+  .logo span {
+    color: rgba(255,209,72,1);
+  }
+  
+
+  p {
+    text-align: center;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background: rgb(0,0,0,0.7);
+    
+  }
+  
+  .sapinhos{
+    display: flex;
+    justify-content:space-between
+    
+  }
+
+  .sapos h3{
+    background-color: rgb(0, 0, 0, 0.7);
+    border-radius: 100% 70% 70% 0.1%;
+    margin-top: 2rem;
+    text-align: center;
+    margin-left: 10rem;
+    margin-right: 25rem;
+   padding: 4rem; 
+   height: 10rem;
+   width: 22rem;
+  }
+  
+  .video-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 50%;  
+  }
+  .video-container iframe {
+    position: absolute;
+    margin-top: 2rem;
+    left: 8rem;
+    width: 70%;
+    height: 90%;
+  }
+  
+  /*=======================================================================Containers=======================================================================*/
+  .container {
+    margin-left: 6rem;
+    margin-right: 6rem;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    margin-top: 50px;
+    
+  }
+
+  
+  .Historia {
+    margin-left: 6rem;
+    margin-right: 6rem;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    margin-top: 50px;
+    background-image: url(https://images5.alphacoders.com/680/thumb-1920-680435.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+  }
+  
+  .Historia h1{
+    text-align: center;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-top: 1rem;
+  }
+  
+  .Historia img{
+    border-style:outset;
+    border-width: 10px;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .Oladovaziodosofa{
+    margin-left: 6rem;
+    margin-right: 6rem;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    margin-top: 50px;
+    background: rgb(0,0,0);
+    background-image: url(https://wallpapers.com/images/hd/tangled-1600-x-900-background-2ceqynrjsj4l6nwf.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+  }
+
+  .Lisboa {
+    margin-left: 6rem;
+    margin-right: 6rem;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    margin-top: 50px;
+    background: rgb(0,0,0);
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/929/191/605/disney-company-movies-night-lights-lanterns-tangled-rapunzel-1876x1080-entertainment-movies-hd-art-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+  }
+
+  .Todavezquetusorri {
+    margin-left: 6rem;
+    margin-right: 6rem;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    margin-top: 50px;
+    background: rgb(0,0,0);
+    background-image: url(https://wallpaper.forfun.com/fetch/83/8319b1d3b9e0ce138b02431fb1e72888.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+  }
+
+  .Universodecoisasquedesconheço {
+    margin-left: 6rem;
+    margin-right: 6rem;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    margin-top: 50px;
+    background: rgb(0,0,0);
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/276/71/598/trees-flowers-mountains-castle-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+  }
+
+  .Poema{
+    margin-top: 1rem;
+    width: 80%;
+     margin-left: 6rem;
+    margin-right: 6rem;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+  }
+  .Poema p {
+    text-align: justify;
+  }
+
+  footer p{
+    text-align: center;
+    color: #fff;
+    font-size: 0.9rem;
+    margin-top: 50px;
+    margin-left: 6rem;
+    margin-right: 6rem;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    font-size: 200%;
+
+}
+
+footer span {
+  color: rgba(255,209,72,1);
+}
